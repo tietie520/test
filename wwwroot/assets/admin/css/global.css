@@ -1,0 +1,36 @@
+@charset "utf-8";
+/************ The Reset Style For WebSite Start ************/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr, th { margin:0; padding:0; border:0; font-weight:inherit; font-style:inherit; font-size:100%; font-family:inherit; }
+table { border-collapse:separate; }
+blockquote:before, blockquote:after, q:before, q:after { content:""; }
+blockquote, q { quotes:"" ""; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal; color:#111; margin:0; padding:0; }
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img { margin:0; }
+/************ The Basic Style Case For WebSite Start ************/
+html { overflow:hidden; -webkit-text-size-adjust:none; }
+body { }
+td, div, li { color:#333; font:12px/1.8 "微软雅黑", arial, sans-serif; }
+select, input, textarea { color:#333; font:12px/1.5 "微软雅黑", arial, sans-serif; }
+a { text-decoration:none; outline:none; }
+a:link, a:active, a:visited { color:#333; }
+a:hover { color:#ff9614!important; }
+p { /*word-break:break-all;word-wrap:break-word;*/ margin:5px 0; padding:0; text-align:justify; }
+img { margin:0; padding:0; border:0; vertical-align:middle; }
+form { margin:0; padding:0; }
+.page-control { clear:both; margin-top:9px; text-align:right; color:#705f28; padding:3px 9px; }
+.page-control input { border:1px #705f28 solid; vertical-align:middle; }
+.page-control img { vertical-align:middle; display:inline; }
+.ipt-page-jump { width:25px; }
+.btn-page-go { background:#b5a367; color:white; }
+.clearfix { zoom:1 }
+.clearfix:after { clear:both; content:"."; display:block; height:0; font-size:0; line-height:0; visibility:hidden }
+.num { font-size:10px; }
+.red { color:red!important; }
+.green { color:green!important; }
+.empty { font-size:14px; color:red; text-align:left!important; }
+.back { clear:both; text-align:center; }
+.read-only { color:gray; }
+.hide { display:none; }
+.fs14 { font-size:14px; }
+.strong { font-weight:bold; }
+/************ The Basic Style Case For WebSite End ************/
