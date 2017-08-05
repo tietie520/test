@@ -13,11 +13,11 @@ return array(
         
         'driver' => 'mysql',
         'persistent' => false,//使用长连接
-        'host' => 'sql.idea-source.net',
+        'host' => '116.62.161.204',
         'port' => 3306,
-        'dbName' => 'sqqinsen',
-        'user' => 'sqqinsen',
-        'password' => 'qinsen2017',
+        'dbName' => 'sanyuan',
+        'user' => 'root',
+        'password' => 'root',
 
 
         'useSequencer' => false,//是否使用全局序列
