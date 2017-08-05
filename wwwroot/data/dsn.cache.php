@@ -13,7 +13,7 @@ return array(
         
         'driver' => 'mysql',
         'persistent' => false,//使用长连接
-        'host' => '116.62.161.204',
+        'host' => '106.14.212.146',
         'port' => 3306,
         'dbName' => 'sanyuan',
         'user' => 'root',
