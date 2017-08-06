@@ -25,6 +25,23 @@ return array(
 //            ),
         )
     ),
+    'hotel' => array(
+        'title' => '酒店',
+        'menu' => array(
+            'cat' => array(
+                'name' => '酒店分类', 'scope' => array('view', 'add', 'edit', 'delete'),
+                'class' => 'ico_type'
+            ),
+            'hotel' => array(
+                'name' => '酒店管理', 'scope' => array('view', 'add', 'edit', 'delete'),
+                'class' => 'ico_list'
+            ),
+            'order' => array(
+                'name' => '酒店订单', 'scope' => array('view', 'edit'),
+                'class' => 'ico_list'
+            ),
+        )
+    ),
     'setting' => array(
         'title' => '系统',
         'menu' => array(
